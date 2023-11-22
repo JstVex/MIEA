@@ -1,6 +1,7 @@
 import AboutSection from "@/components/home/About";
 import Courses from "@/components/home/Courses";
 import ImageSlider from "@/components/home/imageSlider";
+import MieaFamily from "@/components/home/mieaFamily";
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
             <ImageSlider />
             <AboutSection />
             <Courses />
+            <MieaFamily />
         </div>
     );
 }
