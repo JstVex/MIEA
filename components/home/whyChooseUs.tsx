@@ -26,12 +26,12 @@ const cardDescription: { title: string; description: string }[] = [
 const WhyChooseUs = () => {
     return (
         <div className="my-24">
-            <div className="mx-10 leading-8">
+            <div className="mx-5 lg:mx-10 mb-10 leading-8">
                 <div className="border-t-[6px] border-green-700 w-1/4"></div>
-                <h1 className="text-5xl text-slate-700 font-black mt-8">
+                <h1 className="text-4xl md:text-5xl text-slate-700 font-black mt-8">
                     Why Choose Us
                 </h1>
-                <div className="ml-24 mr-10 mt-10 text-lg font-light">
+                <div className="md:ml-24 mt-6 md:mt-10 text-lg font-light">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit eligendi unde expedita tenetur aspernatur nulla dolore exercitationem, maxime ipsa est.
                 </div>
             </div>
