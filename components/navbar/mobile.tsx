@@ -3,7 +3,6 @@ import {
     SheetContent,
     SheetDescription,
     SheetHeader,
-    SheetTitle,
     SheetTrigger,
 } from "@/components/ui/sheet"
 import {
@@ -25,48 +24,60 @@ const MobileMenu = () => {
                 <SheetContent>
                     <SheetHeader>
                         <SheetDescription>
-                            <div className="flex flex-col items-start space-y-4 w-full text-black text-lg mt-10">
-                                <Link href={'/'} passHref>
+                            <div className="flex flex-col items-start w-full text-black text-base mt-10">
+                                <Link href={'/'} passHref className="mb-4">
                                     Home
                                 </Link>
                                 <div className="border-b border-green-600 w-full"></div>
-                                <Link href={'/'} passHref>
-                                    About Us
-                                </Link>
-                                <div className="border-b border-green-600 w-full"></div>
-                                <Link href={'/'} passHref>
-                                    Courses
-                                </Link>
-                                <div className="border-b border-green-600 w-full"></div>
-                                <Link href={'/'} passHref>
-                                    Accomplishments
-                                </Link>
-                                <div className="border-b border-green-600 w-full"></div>
-                                <Link href={'/contact'} passHref>
-                                    Contact
-                                </Link>
-                                {/* <Accordion type="single" collapsible className="w-full">
+                                <Accordion type="single" collapsible className="w-full">
                                     <AccordionItem value="item-1">
-                                        <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                                        <AccordionTrigger>About Us</AccordionTrigger>
                                         <AccordionContent>
-                                            Yes. It adheres to the WAI-ARIA design pattern.
+                                            <Link href={'/about'}>
+                                                Our Mission & History
+                                            </Link>
+                                        </AccordionContent>
+                                        <AccordionContent>
+                                            <Link href={'/about/instructors'}>
+                                                Our Instructors
+                                            </Link>
+                                        </AccordionContent>
+                                        <AccordionContent>
+                                            <Link href={'/about/facilities'}>
+                                                Our Facilities
+                                            </Link>
                                         </AccordionContent>
                                     </AccordionItem>
                                     <AccordionItem value="item-2">
-                                        <AccordionTrigger>Is it styled?</AccordionTrigger>
+                                        <AccordionTrigger>Courses</AccordionTrigger>
                                         <AccordionContent>
-                                            Yes. It comes with default styles that matches the other
-                                            components&apos; aesthetic.
+                                            <Link href={'/courses/igcse'}>
+                                                IGCSE
+                                            </Link>
+                                        </AccordionContent>
+                                        <AccordionContent>
+                                            <Link href={'/courses/pre-igcse'}>
+                                                Pre IGCSE
+                                            </Link>
                                         </AccordionContent>
                                     </AccordionItem>
                                     <AccordionItem value="item-3">
-                                        <AccordionTrigger>Is it animated?</AccordionTrigger>
+                                        <AccordionTrigger>Accomplishments</AccordionTrigger>
                                         <AccordionContent>
-                                            Yes. It&apos;s animated by default, but you can disable it if you
-                                            prefer.
+                                            <Link href={'/accomplishments/2021-2022'}>
+                                                2021-2022
+                                            </Link>
+                                        </AccordionContent>
+                                        <AccordionContent>
+                                            <Link href={'/accomplishments/2022-2023'}>
+                                                2022-2023
+                                            </Link>
                                         </AccordionContent>
                                     </AccordionItem>
-                                </Accordion> */}
+                                </Accordion>
+                                <Link href={'/contact'} passHref className="mt-4">
+                                    Contact
+                                </Link>
                             </div>
                         </SheetDescription>
                     </SheetHeader>

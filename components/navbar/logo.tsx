@@ -7,8 +7,8 @@ const Logo = () => {
             <Image
                 src={'/images/logos/Mainlogo.svg'}
                 alt={'MIEA logo'}
-                width={120}
-                height={120}
+                width={150}
+                height={150}
                 className="ml-3"
             />
         </Link>

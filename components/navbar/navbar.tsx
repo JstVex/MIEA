@@ -4,7 +4,7 @@ import MobileMenu from "./mobile";
 
 const Navbar = () => {
     return (
-        <div className="flex items-center">
+        <div className="flex h-[8vh] items-center">
             <div className="flex flex-1 items-center mt-1">
                 <Logo />
                 <NavigationMenuBar />
