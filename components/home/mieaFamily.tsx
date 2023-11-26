@@ -160,9 +160,9 @@ const MieaFamily = () => {
                 </div>
             </div>
             {getMobileContent()}
-            <div className="flex items-center justify-center my-10 lg:mb-20 lg:mt-16 mx-10">
+            <div className="flex items-center justify-center my-10 lg:mb-20 lg:mt-16 mx-5 sm:mx-10">
                 <div className="relative">
-                    <div className="absolute bg-green-700 right-[55%] bottom-[45%] w-[60rem] h-full transform translate-x-1/2 translate-y-1/2 -z-10"></div>
+                    <div className="absolute bg-green-700 right-[80%] sm:right-[59%] md:right-[60%] lg:right-[55%] bottom-[35%] sm:bottom-[38%] md:bottom-[40%] lg:bottom-[45%] w-[30rem] min-[500px]:w-[38rem] sm:w-[40rem] md:w-[50rem] lg:w-[60rem] h-full transform translate-x-1/2 translate-y-1/2 -z-10"></div>
                     <div className="hidden lg:block absolute bg-black right-[95%] bottom-[75%] w-[18rem] h-[12rem] transform translate-x-1/2 translate-y-1/2 z-50">
                         <div className="text-white text-xl uppercase font-bold flex flex-col justify-evenly h-full ml-14">
                             <div className={`border-l-8 pl-6 cursor-pointer transition-colors hover:border-l-green-500 ${select === 'faculty' ? 'border-l-green-500' : ''}`} onClick={() => handleClick('faculty')}>

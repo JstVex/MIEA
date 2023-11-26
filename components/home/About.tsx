@@ -37,7 +37,7 @@ const AboutSection = () => {
                         className="w-[85vw] h-[60vw] lg:w-96 lg:h-[70vh] xl:w-[34rem] xl:h-[85vh]"
                     />
                 </div>
-                <div className="absolute bg-green-700 right-[55%] min-[200px]:-bottom-[145%] min-[300px]:-bottom-[130%] min-[450px]:-bottom-[115%] sm:-bottom-[110%] lg:right-[21%] lg:-bottom-[53%] lg:w-96 lg:h-[70vh] xl:right-[21%] xl:-bottom-[60%] w-[85vw] h-[60vw] xl:w-[34rem] xl:h-[85vh] transform translate-x-1/2 translate-y-1/2 -z-10"></div>
+                <div className="absolute bg-green-700 right-[55%] min-[200px]:-bottom-[145%] min-[250px]:-bottom-[130%] min-[300px]:-bottom-[111%] min-[400px]:-bottom-[98%] sm:-bottom-[95%] md:-bottom-[110%] lg:right-[21%] lg:-bottom-[53%] lg:w-96 lg:h-[70vh] xl:right-[21%] xl:-bottom-[60%] w-[85vw] h-[60vw] xl:w-[34rem] xl:h-[85vh] transform translate-x-1/2 translate-y-1/2 -z-10"></div>
             </div>
 
         </div>

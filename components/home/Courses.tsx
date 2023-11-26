@@ -13,9 +13,9 @@ const Courses = () => {
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum odio impedit animi quasi tenetur reprehenderit commodi autem, illo distinctio molestias vitae laborum suscipit repellendus assumenda ratione? Laudantium velit eum eaque.
                 </div>
             </div>
-            <div className="flex items-center justify-center flex-wrap mt-16 mb-20 md:mx-10">
+            <div className="flex items-center justify-center flex-wrap mt-10 sm:mt-16 mb-20 md:mx-10">
                 <div className="relative group w-[30rem] m-5">
-                    <div className="absolute bg-green-700 right-[85%] bottom-[75%] w-[15rem] h-[15rem] transform translate-x-1/2 translate-y-1/2 -z-10"></div>
+                    <div className="absolute bg-green-700 w-[10rem] h-[10rem] right-[85%] bottom-[75%] sm:w-[15rem] sm:h-[15rem] transform translate-x-1/2 translate-y-1/2 -z-10"></div>
                     <div className="relative overflow-hidden">
                         <Image
                             src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3JvdXAlMjBzdHVkZW50c3xlbnwwfHwwfHx8MA%3D%3D"
@@ -73,7 +73,7 @@ const Courses = () => {
                             Pre IGCSE
                         </p>
                     </div>
-                    <div className="absolute bg-green-700 left-[35%] bottom-[25%] w-[15rem] h-[15rem] transform translate-x-1/2 translate-y-1/2 -z-10"></div>
+                    <div className="absolute bg-green-700 w-[10rem] h-[10rem] left-[37%] bottom-[25%] sm:left-[35%] sm:bottom-[25%] sm:w-[15rem] sm:h-[15rem] transform translate-x-1/2 translate-y-1/2 -z-10"></div>
                 </div>
             </div>
         </div>
