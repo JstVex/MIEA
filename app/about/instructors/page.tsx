@@ -62,7 +62,7 @@ const Instructors = () => {
                 imageUrl="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3R1ZGVudHN8ZW58MHx8MHx8fDA%3D"
                 imageAlt="Our instructors"
             />
-            <Body className="mx-5 flex justify-center flex-wrap">
+            <Body className="mx-3 md:mx-5 lg:mx-5 flex justify-center flex-wrap">
                 {instructors.map((instructor) => (
                     <Instructor
                         key={instructor.name}

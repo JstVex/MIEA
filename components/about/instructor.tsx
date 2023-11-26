@@ -9,13 +9,13 @@ interface InstructorProps {
 
 const Instructor: React.FC<InstructorProps> = ({ name, image, subject, description }) => {
     return (
-        <div className="w-[20rem] h-auto flex flex-col space-y-1 m-10">
+        <div className="w-full md:w-[18rem] h-auto flex flex-col space-y-1 my-6 mx-5 sm:m-10">
             <Image
                 src={image}
                 alt="instructor"
                 width={500}
                 height={500}
-                className="w-[20rem] h-[30rem] object-cover"
+                className="w-full h-[35rem] md:w-[18rem] md:h-[30rem] object-cover"
             />
             <div className="text-xl font-semibold tracking-wide pt-5">
                 {name}
