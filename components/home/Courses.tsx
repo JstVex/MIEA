@@ -33,7 +33,7 @@ const Courses = () => {
                                     <p className="my-3 text-sm sm:text-base">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit sit quaerat laboriosam itaque modi non ratione doloremque. Iste temporibus odit quae laborum possimus recusandae.
                                     </p>
-                                    <Link href="/" className="text-green-500 inline-block">
+                                    <Link href="/courses/igcse" className="text-green-500 inline-block">
                                         Read more
                                     </Link>
                                 </div>
@@ -63,7 +63,7 @@ const Courses = () => {
                                     <p className="my-3 text-sm sm:text-base">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit sit quaerat laboriosam itaque modi non ratione doloremque. Iste temporibus odit quae laborum possimus recusandae.
                                     </p>
-                                    <Link href="/" className="text-green-500 inline-block">
+                                    <Link href="/courses/pre-igcse" className="text-green-500 inline-block">
                                         Read more
                                     </Link>
                                 </div>

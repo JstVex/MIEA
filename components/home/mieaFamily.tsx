@@ -1,6 +1,7 @@
 'use client'
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 const MieaFamily = () => {
@@ -30,9 +31,9 @@ const MieaFamily = () => {
                                 <p className="my-3">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit sit quaerat laboriosam itaque modi non ratione doloremque. Iste temporibus odit quae laborum possimus recusandae.
                                 </p>
-                                <div className="uppercase font-semibold cursor-pointer">
+                                <Link href="/" className="uppercase font-semibold cursor-pointer">
                                     Learn more
-                                </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -55,9 +56,9 @@ const MieaFamily = () => {
                                 <p className="my-3">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit sit quaerat laboriosam itaque modi non ratione doloremque. Iste temporibus odit quae laborum possimus recusandae.
                                 </p>
-                                <div className="uppercase font-semibold cursor-pointer">
+                                <Link href='/about/facilities' className="uppercase font-semibold cursor-pointer">
                                     Learn more
-                                </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -80,9 +81,9 @@ const MieaFamily = () => {
                                 <p className="my-3">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit sit quaerat laboriosam itaque modi non ratione doloremque. Iste temporibus odit quae laborum possimus recusandae.
                                 </p>
-                                <div className="uppercase font-semibold cursor-pointer">
+                                <Link href='/about/instructors' className="uppercase font-semibold cursor-pointer">
                                     Learn more
-                                </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
