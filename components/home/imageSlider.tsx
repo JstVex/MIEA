@@ -30,9 +30,9 @@ const ImageSlider = () => {
     };
 
     return (
-        <div className="relative w-full h-screen overflow-hidden">
-            <div className="absolute z-50 left-0 top-0 w-1/3 mt-[60vh] ml-12 bg-gray-800 text-white p-8">
-                <h1 className="ml-12 text-3xl opacity-100 font-bold uppercase text-green-500 mb-4">
+        <div className="relative w-full h-[92vh] overflow-hidden">
+            <div className="absolute z-50 left-0 top-0 min-w-[25rem] w-1/3 mt-[60vh] bg-gray-900 bg-opacity-80 text-white p-8">
+                <h1 className="ml-12 pl-8 text-4xl font-bold uppercase text-white border-l-[6px] border-green-500 tracking-wide">
                     {texts[currentImage]}
                 </h1>
             </div>
@@ -44,11 +44,11 @@ const ImageSlider = () => {
                         width={500}
                         height={500}
                         alt={`Image ${index + 1}`}
-                        className={`absolute w-full h-screen object-cover transition-transform duration-300 transform ${index === currentImage ? 'translate-x-0' : 'translate-x-full'
+                        className={`absolute w-full h-[92vh] object-cover transition-transform duration-300 transform ${index === currentImage ? 'translate-x-0' : 'translate-x-full'
                             }`}
                     />
                 ))}
-                <div className="absolute top-[80vh] right-4 flex items-center space-x-2">
+                <div className="absolute top-[82vh] left-4 flex items-center space-x-5">
                     <button
                         onClick={prevImage}
                         className="w-10 h-10 bg-black border border-white text-white rounded-full flex items-center justify-center text-xl focus:outline-none"
