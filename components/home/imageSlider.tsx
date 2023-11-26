@@ -32,7 +32,7 @@ const ImageSlider = () => {
     return (
         <div className="relative w-full h-[92vh] overflow-hidden">
             <div className="absolute z-50 left-0 top-0 min-w-[25rem] w-1/3 mt-[60vh] bg-gray-900 bg-opacity-80 text-white p-8">
-                <h1 className="ml-12 pl-8 text-4xl font-bold uppercase text-white border-l-[6px] border-green-500 tracking-wide">
+                <h1 className="ml-3 sm:ml-12 pl-8 text-4xl font-bold uppercase text-white border-l-[6px] border-green-500 tracking-wide">
                     {texts[currentImage]}
                 </h1>
             </div>
