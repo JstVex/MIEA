@@ -15,6 +15,8 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea";
+import Body from "@/components/ui/body";
+import Title from "@/components/ui/title";
 
 const formSchema = z.object({
     name: z.string().min(2, {
@@ -50,11 +52,11 @@ const Contact = () => {
                 imageUrl="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3R1ZGVudHN8ZW58MHx8MHx8fDA%3D"
                 imageAlt="2022-2023"
             />
-            <div className="mx-20 mt-[15vh]">
-                <h1 className="text-5xl text-slate-700 font-black border-l-[6px] border-green-700 pl-5">
-                    Contact Us
-                </h1>
-                <div className="my-12 flex space-x-20">
+            <Body className="md:mt-[12vh] lg:mt-[15vh]">
+                <Title
+                    title="Contact Us"
+                />
+                <div className="my-10 md:my-12 flex flex-col md:flex-row space-y-10 md:space-x-20">
                     <div className="flex-1">
                         <h2 className="text-2xl text-slate-700 font-extrabold mb-6">
                             Ask us any question
@@ -119,7 +121,7 @@ const Contact = () => {
                             </form>
                         </Form>
                     </div>
-                    <div className="w-1/2">
+                    <div className="w-full md:w-1/2">
                         <h2 className="text-2xl text-slate-700 font-extrabold mb-6">
                             Keep In Touch
                         </h2>
@@ -157,8 +159,8 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </Body>
+        </div >
     );
 }
 
